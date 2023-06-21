@@ -636,4 +636,4 @@ As aplicabilidades de uma API de e-mail são:
 </ul>
 <br>
 
-## Obrigado por ter chegado até aqui, caso tenha alguma dúvida ou problema com a API sinta-se livre para entrar em contato aqui pelo GitHub, Discord: Matheus Ferraz#3474, ou [Twitter](https://twitter.com/__mtsfrz__
+## Obrigado por ter chegado até aqui, caso tenha alguma dúvida ou problema com a API sinta-se livre para entrar em contato aqui pelo GitHub, Discord: Matheus Ferraz#3474, ou [Twitter](https://twitter.com/__mtsfrz__)
