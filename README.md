@@ -507,12 +507,12 @@ E com isso, será emitido um alerta que impedirá o cliente de continuar com a a
 <img src="https://i.ibb.co/6W3Xw06/image.png" width="70%">
 <hr>
 
-## E-mail inválido
-Caso o e-mail esteja inválido, aparecerá uma notificação informando, e após 5 segundos, a página será atualizada:
+# E-mail inválido
+Caso o e-mail esteja inválido, aparecerá uma notificação informando.
 
 <img src="https://i.ibb.co/TgXtR6Z/image.png" width="60%">
 
-E a página será atualizada.
+E após 5 segundos, a página será atualizada:
 
 A parte do código que corresponde a esse retorno é esse aqui:
 
@@ -524,7 +524,7 @@ A parte do código que corresponde a esse retorno é esse aqui:
             }
 ```
 
-## E-mail válido:
+# E-mail válido:
 
 Caso o e-mail seja válido e o campo 'Assunto' esteja preenchido, o retorno será exibido da seguinte forma:
 
@@ -539,7 +539,7 @@ E a parte que corresponde é:
             mensagem.innerHTML = data.mensagem;
 ```
 
-Depois, a página será atualizada, isso foi necessário porque a notificação de 'e-mail inválido' era exibida mesmo em caso de sucesso. Essa foi a solução mais rápida que eu encontrei e a parte do código responsável é: 
+Depois, a página será atualizada. Isso foi necessário porque a notificação de 'e-mail inválido' era exibida mesmo em caso de sucesso. Essa foi a solução mais rápida que eu encontrei e a parte do código responsável é: 
 
 ```javascript
             setTimeout(() => {
@@ -636,4 +636,4 @@ As aplicabilidades de uma API de e-mail são:
 </ul>
 <br>
 
-## Obrigado por ter chegado até aqui, caso tenha alguma dúvida ou problema com a API sinta-se livre para entrar em contato aqui pelo GitHub, Discord: Matheus Ferraz#3474, ou [Twitter](https://twitter.com/__mtsfrz__
+## Obrigado por ter chegado até aqui, caso tenha alguma dúvida ou problema com a API sinta-se livre para entrar em contato aqui pelo GitHub, Discord: Matheus Ferraz#3474, ou [Twitter](https://twitter.com/__mtsfrz__)!
